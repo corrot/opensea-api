@@ -19,7 +19,7 @@ function App() {
       .catch(function () {
         console.log("Err");
       });
-  }, []);
+  }, [collectionName]);
 
   const shortList = [
     "total_volume",
